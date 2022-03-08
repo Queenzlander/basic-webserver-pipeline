@@ -6,7 +6,7 @@ Format - Docker
 Repo - AWS ECR (private repos)
 
 # Other steps
-ECR:
+ECR:  
 Ensure repo exists before completing the below (else the deploy stage will fail...)  
 I also had to set a policy on the repo before I could download image from ECR (not sure if user error or if required with private repos)  
 
