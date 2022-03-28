@@ -28,15 +28,3 @@ pipeline {
     }
  }
 }
-/* job for later
-    stage('K8S Deploy') {
-        steps{
-            script {
-                withKubeConfig([credentialsId: 'Kubernetes', serverUrl: '']) {
-                sh ('kubectl apply -f eks-deploy-k8s.yaml')
-                    }
-                }
-            }
-        }
-    }
-*/
